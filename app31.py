@@ -16,7 +16,7 @@ os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY")
 
 
 SECTOR_PATHS = {
-    "Manufacturing": r"C:\Users\JaswanthPalla\Desktop\VS  Code\ProbBid\Codebase\tester_1_20-08-2025\RAR-V1\Manufacturing_Sector 1.xlsx",
+    "Manufacturing": r"Manufacturing_Sector 1.xlsx",
     "Cyber Security": None,
     "Others": None
 }
@@ -320,4 +320,5 @@ with col2:
         st.info("👆 Select options on the left and click **Compare** to generate the report here.")
 
         st.markdown("---")
+
 
