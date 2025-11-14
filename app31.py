@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 from langchain_openai import ChatOpenAI
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
-from langchain.callbacks import get_openai_callback
+from langchain_core.callbacks import get_openai_callback
 from langgraph.graph import StateGraph, END
 from typing import TypedDict, List, Dict
 import json
@@ -318,4 +318,5 @@ with col2:
             st.markdown(report_text)
     else:
         st.info("👆 Select options on the left and click **Compare** to generate the report here.")
+
         st.markdown("---")
